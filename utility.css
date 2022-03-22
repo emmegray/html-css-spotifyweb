@@ -1,3 +1,20 @@
+/* .clearfix {
+    overflow: auto;
+} */
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+    border: red 1px solid;
+}
+
+body {
+    margin: 0 auto;
+}
+
 button {
     background-color: transparent;
     border: none;
@@ -11,6 +28,26 @@ ul {
     font-size: 0.8rem;
 }
 
+li a {
+  color: #7d7f84;
+}
+
 a {
     text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+h4 {
+    margin: 0;
+    color: #7d7f84;
+    font-size: 0.8rem;
 }
