@@ -1,0 +1,43 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  
+  color: white;
+  border: red 1px solid;
+}
+
+/* MAIN */
+
+main {
+  background-color: #141922;
+  display: flex;
+}
+
+.sidebar {
+  background-color: #000000;
+  width: 200px;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+}
+
+.subscription {
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+}
+
+footer {
+  display: flex;
+  align-content: center;
+}
+
+.musicbar-left{
+  align-items: left;
+}
+
+.musicbar-right {
+  align-items: right;
+}
