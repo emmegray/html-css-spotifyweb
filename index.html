@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Spotify</title>
 </head>
 <body>
@@ -16,7 +17,35 @@
   <div class="container">
     <nav class="sidebar">
       <!--Logo - Lista | Home | Cerca | La tua Libreria - Playlist - + bottone lista x 8-->
-      Sidebar
+      <img class="logo-big" src="img/logo.svg" alt="logo" srcset=""/>
+      <ul>
+        <li class="active"><a href=""><img src="img/home.svg" alt="" srcset=""> <span>Home</span></a></li>
+        <li><a href=""><img src="img/search.svg" alt="" srcset=""> <span>Cerca</span></a></li>
+        <li><a href=""><img src="img/libreria.svg" alt="" srcset=""> <span>La tua libreria</span></a></li>
+      </ul>
+      <strong>Playlist</strong>
+      <ul class="playlist-list">
+        <li class="playlist-new"><a href="#"><span ><i class="fa-solid fa-plus"></i></span> Crea Playlist</a></li>
+        <li><a href="#">Nome Playlist</a></li>
+        <li><a href="#">Nome Playlist</a></li>
+        <li><a href="#">Nome Playlist</a></li>
+        <li><a href="#">Nome Playlist</a></li>
+        <li><a href="#">Nome Playlist</a></li>
+        <li><a href="#">Nome Playlist</a></li>
+        <li><a href="#">Nome Playlist</a></li>
+        <li><a href="#">Nome Playlist</a></li>
+      </ul>
+
+      <div class="bottom">
+        <a class="download" href="#">
+          <img src="img/download.svg" alt=""/>
+          <span>Installa app</span>
+        </a>
+        <a class="profile" href="#">
+          <img src="img/profile.svg" alt=""/>
+            <span>John Doe</span>
+        </a>
+      </div>
     </nav>
     <main>
       <section class="subscription">

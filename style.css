@@ -7,22 +7,130 @@
   height: calc(100vh - 90px);
 }
 
+main, .sidebar {
+  height: 100%;
+  position: relative;
+}
+
 main {
   background-color: #141922;
-  height: 100%;
   width: 100%;
-  position: relative;
+  overflow-y: scroll;
   padding-top: 90px;
 }
 
 .sidebar {
   background-color: #000000;
   min-width: 230px;
-  height: 100%;
 }
 
-main,.sidebar {
-  overflow-y: scroll;
+.sidebar .logo-big {
+  max-width: 137px;
+  margin: 20px;
+}
+
+.sidebar ul {
+  margin-bottom: 20px;
+}
+
+.sidebar li a, .sidebar strong {
+  margin: 10px 0;
+  padding: 0 15px;
+}
+
+.sidebar li a {
+  text-transform: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.sidebar li {
+  border-left: 3px solid transparent;
+}
+
+.sidebar li.active {
+  border-left: 3px solid #adff2f;
+}
+
+.sidebar li.active * {
+  color: white;
+}
+
+.sidebar li * {
+  color: #7d7f84;
+}
+
+.sidebar li img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.sidebar strong {
+  margin-left: 3px;
+  text-transform: uppercase;
+}
+
+.sidebar .playlist-list li {
+  margin-bottom: 20px;
+}
+
+.sidebar .playlist-list .playlist-new {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sidebar .playlist-list .playlist-new span {
+  background-color: #7d7f84;
+  height: 36px;
+  width: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.sidebar .playlist-list .playlist-new i {
+  color: black;
+  font-size: 20px;
+}
+
+.sidebar .bottom {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.sidebar .bottom img {
+  margin-right: 10px;
+}
+
+.sidebar .bottom a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sidebar .download {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7d7f84;
+  margin-bottom: 10px;
+}
+
+.sidebar .download span {
+  color: #7d7f84;
+}
+
+.sidebar .download img {
+  filter: grayscale(100%) brightness(50%);
+  height: 1.2rem;
+}
+
+.sidebar .profile img {
+  height: 25px;
+  width: 25px;
+  background-color: #7d7f84;
+  border-radius: 50%;
 }
 
 .subscription {
