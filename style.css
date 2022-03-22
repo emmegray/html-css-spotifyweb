@@ -27,11 +27,12 @@ main,.sidebar {
 
 .subscription {
   text-align: right;
-  position: absolute;
-  width: 100%;
+  position: fixed;
+  width: calc(100% - 230px);
   height: 90px;
   line-height: 80px;
   top: 0;
+  left: 230px;
   background-color: #00000075;
 }
 
@@ -58,7 +59,7 @@ main,.sidebar {
   padding: 20px;
 }
 
-.playlist h2 {
+.playlist h2, .playlist h4 {
   width: 100%;
   margin-bottom: 20px;
 }
