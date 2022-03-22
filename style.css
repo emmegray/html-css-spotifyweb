@@ -10,34 +10,53 @@
 
 /* MAIN */
 
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 90px);
+}
+
 main {
   background-color: #141922;
-  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-top: 90px;
 }
 
 .sidebar {
   background-color: #000000;
-  width: 200px;
-  height: 100vh;
-  position: absolute;
-  left: 0;
+  min-width: 230px;
+  height: 100%;
+}
+
+main,.sidebar {
+  overflow-y: scroll;
 }
 
 .subscription {
-  justify-content: flex-end;
+  text-align: right;
   position: absolute;
-  right: 0;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  background-color: #00000075;
 }
 
 footer {
+  background-color: #282828;
   display: flex;
-  align-content: center;
+  align-content: space-between;
+  height: 90px;
 }
 
-.musicbar-left{
+footer .left{
+  display: flex;
   align-items: left;
 }
 
-.musicbar-right {
+footer .right {
+  display: flex;
   align-items: right;
 }
