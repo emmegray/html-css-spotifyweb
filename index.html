@@ -19,9 +19,9 @@
       <!--Logo - Lista | Home | Cerca | La tua Libreria - Playlist - + bottone lista x 8-->
       <img class="logo-big" src="img/logo.svg" alt="logo" srcset=""/>
       <ul>
-        <li class="active"><a href=""><img src="img/home.svg" alt="" srcset=""> <span>Home</span></a></li>
-        <li><a href=""><img src="img/search.svg" alt="" srcset=""> <span>Cerca</span></a></li>
-        <li><a href=""><img src="img/libreria.svg" alt="" srcset=""> <span>La tua libreria</span></a></li>
+        <li class="active"><a href=""><img src="img/home.svg" alt="" srcset=""> Home</a></li>
+        <li><a href=""><img src="img/search.svg" alt="" srcset=""> Cerca</a></li>
+        <li><a href=""><img src="img/libreria.svg" alt="" srcset=""> La tua libreria</a></li>
       </ul>
       <strong>Playlist</strong>
       <ul class="playlist-list">
@@ -36,16 +36,20 @@
         <li><a href="#">Nome Playlist</a></li>
       </ul>
 
-      <div class="bottom">
-        <a class="download" href="#">
-          <img src="img/download.svg" alt=""/>
-          <span>Installa app</span>
-        </a>
-        <a class="profile" href="#">
-          <img src="img/profile.svg" alt=""/>
-            <span>John Doe</span>
-        </a>
-      </div>
+      <ul class="bottom">
+        <li>
+          <a class="download" href="#">
+            <img src="img/download.svg" alt=""/>
+            <span>Installa app</span>
+          </a>
+        </li>
+        <li>
+          <a class="profile" href="#">
+            <img src="img/profile.svg" alt=""/>
+              <span>John Doe</span>
+          </a>
+        </li>
+      </ul>
     </nav>
     <main>
       <section class="subscription">
@@ -55,7 +59,10 @@
       <nav class="categories">
         <!--Playlist Categories-->
         <ul>
-          <li><a href="#">In evidenza</a></li>
+          <li class="active">
+            <a href="#">In evidenza</a>
+            <div class="underline"></div>
+          </li>
           <li><a href="#">Podcast</a></li>
           <li><a href="#">Classifiche</a></li>
           <li><a href="#">Generi e mood</a></li>
@@ -190,7 +197,9 @@
       <div class="player">
         <span class="time current">00:30</span>
         <div class="bar">
-          <div class="fill"></div>
+          <div class="fill">
+          <i class="fa-solid fa-circle"></i>
+          </div>
         </div>
         <span class="time remaining">02:00</span>
       </div>
@@ -203,7 +212,9 @@
         <button><i class="fa-solid fa-tv"></i></button>
         <button><i class="fa-solid fa-volume-high"></i></button>
         <div class="volume bar">
-          <div class="fill"></div>
+          <div class="fill">
+            <i class="fa-solid fa-circle"></i>
+          </div>
         </div>
       </div>
     </div>
