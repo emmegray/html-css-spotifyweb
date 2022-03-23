@@ -149,6 +149,7 @@ main {
   border-radius: 20px;
   padding: 12px 40px;
   text-transform: uppercase;
+  margin-right: 30px;
 }
 
 .categories {
@@ -186,19 +187,34 @@ main {
   width: 100%;
 }
 
+/* FOOTER */
+
 footer {
   background-color: #282828;
   display: flex;
   align-content: space-between;
   height: 90px;
+  padding: 20px 10px;
 }
 
-footer .left{
+footer .left {
   display: flex;
   align-items: left;
 }
 
+footer .left img {
+  padding-right: 10px;
+}
+
+footer .left span {
+  padding-top: 5px;
+}
+
+footer .center {
+  text-align: center;
+}
+
 footer .right {
-  display: flex;
   align-items: right;
+  justify-items: flex-end;
 }
