@@ -210,6 +210,10 @@ footer .left span {
   padding-top: 5px;
 }
 
+footer .left i {
+  color: #7d7f84;
+}
+
 footer .center {
   text-align: center;
 }
