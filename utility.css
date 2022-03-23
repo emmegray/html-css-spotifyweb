@@ -16,6 +16,7 @@ body {
 }
 
 button {
+    cursor: pointer;
     background-color: transparent;
     border: none;
 }
@@ -54,10 +55,4 @@ h4 {
 
 .round {
     border-radius: 50%;
-}
-
-.overlay {
-    font-size: 4rem;
-    display: none;
-    background-color: rgba(0, 0, 0, 0.616);
 }
