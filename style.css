@@ -336,6 +336,10 @@ footer .center .controls i.fa-circle-play {
   font-size: 2rem;
 }
 
+footer .center .controls i.fa-circle-play:hover {
+  transform: scale(1.2);
+}
+
 footer .player {
   width: 100%;
 }
