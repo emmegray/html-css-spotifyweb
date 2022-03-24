@@ -1,3 +1,83 @@
-@media screen and (max-width: 420px) {
-  
+@media screen and (max-width: 552px) {
+    .sidebar {
+        min-width: 50px;
+        width: 50px;
+        padding-top: 0;
     }
+
+    .sidebar .logo-big {
+        display: none;
+    }
+
+    .sidebar .logo-small {
+        display: block;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .sidebar strong {
+        display: none;
+    }
+
+    .sidebar ul li a span {
+        display: none;
+    }
+
+    .sidebar ul li a {
+        padding: 0 5px 0 10px;        
+    }
+
+    .sidebar ul li a img {
+        margin-right: 0;
+    }
+
+    .sidebar li.active {
+        border: 0;
+    }
+
+    .playlist-list {
+        display: none;
+    }
+
+    .playlist-new {
+        display: none;
+    }
+
+    .sidebar ul.bottom .download {
+        border: 0;
+        padding: 0;
+    }
+
+    .sidebar ul.bottom .download img {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sidebar ul.bottom li:first-child {
+        height: 25px;
+        width: 25px;
+    }
+
+    .sidebar ul.bottom li a {
+        padding: 0;
+    }
+
+    .sidebar ul.bottom img {
+        margin: 0;
+    }
+
+    .subscription {
+        width: calc(100% - 50px);
+        left: 50px;
+    }
+
+    .playlist .album {
+      width: calc(100% / 2);
+    }
+
+    footer .right .controls .volume{ 
+        margin-left: 5px;
+    }
+
+    
+}

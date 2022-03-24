@@ -1,3 +1,28 @@
 @media screen and (max-width: 992px) {
-    
+    .playlist .album {
+        width: calc(100% / 4);
     }
+}
+
+@media screen and (max-width: 660px) {
+    .playlist .album {
+        width: calc(100% / 2);
+    }
+
+    footer .left {
+        margin-right: 5px;
+    }
+    
+    footer .left .controls {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    footer .right {
+        margin-left: 5px;
+    }
+
+    footer .right .controls .volume{ 
+        margin-left: 10px;
+    }
+}
