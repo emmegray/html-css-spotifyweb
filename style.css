@@ -88,6 +88,7 @@ li.active * {
 
 .sidebar .download:hover * {
   color: white;
+  filter: grayscale(100%) brightness(100%);
 }
 
 .sidebar .playlist-list .playlist-new {
@@ -139,10 +140,6 @@ li.active * {
 .sidebar .download img {
   filter: grayscale(100%) brightness(50%);
   height: 1.2rem;
-}
-
-.sidebar .bottom:hover {
-  filter: grayscale(100%) brightness(100%);
 }
 
 .sidebar .bottom a.profile img {
